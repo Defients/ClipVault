@@ -1,0 +1,19 @@
+# Core runtime dependencies
+PyQt6>=6.5
+cryptography>=41.0
+pyperclip>=1.8
+pynput>=1.7
+Pillow>=10.0
+
+# Optional OCR support (requires a Tesseract installation)
+pytesseract>=0.3
+
+# Optional fuzzy search
+rapidfuzz>=3.0
+
+# Build dependencies
+pyinstaller>=6.21
+
+# Test dependencies
+pytest>=7.0
+pytest-cov>=4.0

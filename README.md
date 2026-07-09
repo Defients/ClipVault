@@ -6,6 +6,12 @@ ClipVault is a professional, local-first clipboard manager with encrypted vault 
 
 It is built for people who copy important things all day and do not want those fragments to vanish: developers, creators, streamers, researchers, writers, AI power users, support agents, and anyone whose workflow depends on fast recall.
 
+<p align="center">
+  <img src="docs/screenshot-main.png" alt="ClipVault main window" width="780">
+</p>
+
+> Screenshot placeholder: add `docs/screenshot-main.png` after capture.
+
 ---
 
 ## What ClipVault Does
@@ -290,7 +296,7 @@ dist/ClipVault.exe
 The current spec embeds the icon from:
 
 ```text
-build/clipvault/CLIPVAULT.ico
+assets/CLIPVAULT.ico
 ```
 
 Make sure that file exists before building, or update `clipvault.spec` to point at your preferred icon path.
